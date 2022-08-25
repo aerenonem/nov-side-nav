@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>novology</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    
+  
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    
+    <!-- Custom styles for this template -->
+    <link href="/novology/css/side-nav.css" rel="stylesheet">
+  </head>
+
+
+  <body>
+    
+    <main>
+      
+   
+    <div id="mySidenav" class="sidenav">
+      
+        
+      <!-- SIDENAV HEADER -->
+      <div class="header">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <img id="novologylogo" src="/assets/novology-css-assets /novology logo 1.png" alt="">
+          
+      </div>
+      <div class="tab">
+
+        <div class="tabHeader">
+        <button class="tablink" onclick="openPage('Recommendations', this, 'linear-gradient(157.26deg, rgba(255, 255, 255, 0.4) 8.29%, rgba(255, 255, 255, 0.1) 91.14%)')" id="defaultOpen">
+          <div class="bluecircle">
+          <img src="/assets/novology-css-assets /Recommandations.png" alt="">
+          </div>
+        <p>Recommendations</p>
+        </button>
+        <button class="tablink" onclick="openPage('Appointments', this, 'linear-gradient(157.26deg, rgba(255, 255, 255, 0.4) 8.29%, rgba(255, 255, 255, 0.1) 91.14%)')">
+          <div class="bluecircle">
+            <img src="/assets/novology-css-assets /Appointments.png" alt="">
+            
+          </div>
+          <p>Appointments</p>
+        </button>
+        <button class="tablink" onclick="openPage('SkinAnalysis', this, 'linear-gradient(157.26deg, rgba(255, 255, 255, 0.4) 8.29%, rgba(255, 255, 255, 0.1) 91.14%;)')">
+        <img src="/assets/novology-css-assets /SkinAnalysis.png" alt="">
+        <p>Skin Analysis</p>
+        </button>
+        <button class="tablink" onclick="openPage('Basket', this, 'linear-gradient(157.26deg, rgba(255, 255, 255, 0.4) 8.29%, rgba(255, 255, 255, 0.1) 91.14%)')">
+        <img src="/assets/novology-css-assets /Basket.png" alt="">
+        <p>Basket</p>
+        </button>
+        </div>
+        <!-- RECOMMENDATIONS -->
+
+      <div class="allProductsPage" id="allproductpage">
+        <div class="allProductHeader">
+          <input class="button" type="image" onclick="closeFullProductMenu('allproductpage')" src="/assets/novology-css-assets /backbutton.png" />
+          <p>Dispensary > <strong> All Recommended Products</strong></p> 
+        </div>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <div class="image">
+                <img src="/assets/novology-css-assets /Acne Cleanser_R1 1.png" alt="">
+             </div>
+             <div class="product-carousel-details">
+               <span class="product-carousel-name">Acne Gel</span>
+               
+               <span class="product-carousel-category">By Novology</span>
+             </div>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card">
+              <div class="image">
+                <img src="/assets/novology-css-assets /Acne Cleanser_R1 1.png" alt="">
+             </div>
+             <div class="product-carousel-details">
+               <span class="product-carousel-name">Acne Gel</span>
+               
+               <span class="product-carousel-category">By Novology</span>
+             </div>
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="card">
+              <div class="image">
+                <img src="/assets/novology-css-assets /Acne Cleanser_R1 1.png" alt="">
+             </div>
+             <div class="product-carousel-details">
+               <span class="product-carousel-name">Acne Gel</span>
+               
+               <span class="product-carousel-category">By Novology</span>
+             </div>
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="card">
+              <div class="image">
+                <img src="/assets/novology-css-assets /Acne Cleanser_R1 1.png" alt="">
+             </div>
+             <div class="product-carousel-details">
+               <span class="product-carousel-name">Acne Gel</span>
+               
+               <span class="product-carousel-category">By Novology</span>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+
+      <div class="allArticlesPage" id="allArticlesPage">
+        <div class="allArticlesHeader">
+          <input class="button" type="image" onclick="closeFullProductMenu('allArticlesPage')" src="/assets/novology-css-assets /backbutton.png" />
+          <p>Dispensary > <strong>  All Article and Videos</strong></p> 
+        </div>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              
+                <img src="/assets/novology-css-assets /SkinPhoto.png" alt="">
+             
+             <div class="product-carousel-details">
+               <span class="product-carousel-name">6 Ways to Get Rid of Acne for Good </span>
+               
+               <span class="product-carousel-category">Despite adhering to a strict daily skin-care regimen—that includes religiously washing..</span>
+             </div>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card">
+              
+                <img src="/assets/novology-css-assets /SkinPhoto2.png" alt="">
+             
+             <div class="product-carousel-details">
+               <span class="product-carousel-name">The Best Acne Treatments, According to the Pros</span>
+               
+               <span class="product-carousel-category">Acne, whether mild or severe, is a source.. </span>
+             </div>
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="card">
+              
+                <img src="/assets/novology-css-assets /SkinPhoto.png" alt="">
+             
+             <div class="product-carousel-details">
+               <span class="product-carousel-name">6 Ways to Get Rid of Acne for Good</span>
+               
+               <span class="product-carousel-category">Despite adhering to a strict daily skin-care regimen—that includes religiously washing..</span>
+             </div>
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="card">
+              
+                <img src="/assets/novology-css-assets /SkinPhoto2.png" alt="">
+             
+             <div class="product-carousel-details">
+               <span class="product-carousel-name">6 Ways to Get Rid of Acne for Good</span>
+               
+               <span class="product-carousel-category">Despite adhering to a strict daily skin-care regimen—that includes religiously washing..</span>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+        
+      <div id="Recommendations" class="tabcontent" >
+        
+        <div id="reminder-swiper" >
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"> 
+                <p><strong>REMINDER:</br></strong> The results of your <strong><u>AIBA Analysis</u></strong> also recommend you to visit the <strong><u>Dry Skin Room</u></strong> 
+                </p>
+               
+              </div>
+              <div class="swiper-slide">
+                <p><strong>REMINDER:</br></strong> 2 <strong><u>AIBA Analysis</u></strong> also recommend you to visit the <strong><u>Dry Skin Room</u></strong> 
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <p><strong>REMINDER:</br></strong> 3 <strong><u>AIBA Analysis</u></strong> also recommend you to visit the <strong><u>Dry Skin Room</u></strong> 
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <p><strong>REMINDER:</br></strong> 4 <strong><u>AIBA Analysis</u></strong> also recommend you to visit the <strong><u>Dry Skin Room</u></strong> 
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <p><strong>REMINDER:</br></strong> 5 <strong><u>AIBA Analysis</u></strong> also recommend you to visit the <strong><u>Dry Skin Room</u></strong> 
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <p><strong>REMINDER:</br></strong> 6 <strong><u>AIBA Analysis</u></strong> also recommend you to visit the <strong><u>Dry Skin Room</u></strong> 
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <p><strong>REMINDER:</br></strong> 7 <strong><u>AIBA Analysis</u></strong> also recommend you to visit the <strong><u>Dry Skin Room</u></strong> 
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <p><strong>REMINDER:</br></strong> 8 <strong><u>AIBA Analysis</u></strong> also recommend you to visit the <strong><u>Dry Skin Room</u></strong> 
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <p><strong>REMINDER:</br></strong> 10 <strong><u>AIBA Analysis</u></strong> also recommend you to visit the <strong><u>Dry Skin Room</u></strong> 
+                </p>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+        <div id="recommended-products" >
+            <p>Recommended Products <button style="
+            border: none; background: none; font-family: 'Roboto', sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 14px;
+              color: #324C5C;" onclick="openFullProductMenu('allproductpage')">  <u>See All</u></button></p>
+        </div>
+        <div id="product-swiper" >
+          <div class="swiper productSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                
+                  <div class="image">
+                    <img src="/assets/novology-css-assets /Acne Cleanser_R1 1.png" alt="">
+                 </div>
+                 <div class="product-carousel-details">
+                   <span class="product-carousel-name">Acne Cleanser</span>
+                   <span class="product-carousel-category">By Novology</span>
+               </div>
+                
+              </div>
+              <div class="swiper-slide">
+                <div class="image">
+                  <img src="/assets/novology-css-assets /Acne Cleanser_R1 1.png" alt="">
+               </div>
+               <div class="product-carousel-details">
+                 <span class="product-carousel-name">Acne Gel</span>
+                 
+                 <span class="product-carousel-category">By Novology</span>
+               </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image">
+                  <img src="/assets/novology-css-assets /Acne Cleanser_R1 1.png" alt="">
+               </div>
+               <div class="product-carousel-details">
+                 <span class="product-carousel-name">Acne Serum</span>
+                 <span class="product-carousel-category">Category</span>
+             </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image">
+                  <img src="/assets/novology-css-assets /Acne Cleanser_R1 1.png" alt="">
+               </div>
+               <div class="product-carousel-details">
+                 <span class="product-carousel-name">Acne Cleanser</span>
+                 <span class="product-carousel-category">Category</span>
+             </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image">
+                  <img src="/assets/novology-css-assets /Acne Cleanser_R1 1.png" alt="">
+               </div>
+               <div class="product-carousel-details">
+                 <span class="product-carousel-name">Acne Serum</span>
+                 <span class="product-carousel-category">Category</span>
+             </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image">
+                  <img src="/assets/novology-css-assets /Acne Cleanser_R1 1.png" alt="">
+               </div>
+               <div class="product-carousel-details">
+                 <span class="product-carousel-name">Acne Serum</span>
+                 <span class="product-carousel-category">Category</span>
+             </div>
+              </div>
+              <div style="display: block;">
+                <div class="swiper-slide" >
+                
+              </div>
+            </div>
+              
+            <div style="display: block;">
+              <div class="swiper-slide" >
+              
+            </div>
+          </div>
+              <div style="display: block;">
+                <div class="swiper-slide" >
+                
+              </div>
+            </div>
+            </div>
+          </div>
+        
+        </div>
+        <div id="relevant-articles">
+          <p>Relevants Articles and Videos <button style="
+            border: none; background: none; font-family: 'Roboto', sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 14px;
+              color: #324C5C;" onclick="openFullProductMenu('allArticlesPage')">  <u>See All</u></button></p>
+        </div>
+        <div id="articles-videos">
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                
+                  <img src="/assets/novology-css-assets /SkinPhoto.png" alt="">
+               
+               <div class="product-carousel-details">
+                 <span class="product-carousel-name">6 Ways to Get Rid of Acne for Good </span>
+                 
+                 <span class="product-carousel-category">Despite adhering to a strict daily skin-care regimen—that includes religiously washing..</span>
+               </div>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                
+                  <img src="/assets/novology-css-assets /SkinPhoto2.png" alt="">
+               
+               <div class="product-carousel-details">
+                 <span class="product-carousel-name">The Best Acne Treatments, According to the Pros</span>
+                 
+                 <span class="product-carousel-category">Acne, whether mild or severe, is a source.. </span>
+               </div>
+              </div>
+            </div>
+            
+            <div class="column">
+              <div class="card">
+                
+                  <img src="/assets/novology-css-assets /SkinPhoto.png" alt="">
+               
+               <div class="product-carousel-details">
+                 <span class="product-carousel-name">6 Ways to Get Rid of Acne for Good</span>
+                 
+                 <span class="product-carousel-category">Despite adhering to a strict daily skin-care regimen—that includes religiously washing..</span>
+               </div>
+              </div>
+            </div>
+            
+            <div class="column">
+              <div class="card">
+                
+                  <img src="/assets/novology-css-assets /SkinPhoto2.png" alt="">
+               
+               <div class="product-carousel-details">
+                 <span class="product-carousel-name">6 Ways to Get Rid of Acne for Good</span>
+                 
+                 <span class="product-carousel-category">Despite adhering to a strict daily skin-care regimen—that includes religiously washing..</span>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+
+      <!-- APPOINTMENTS -->
+      <div id="Appointments" class="tabcontent">
+        
+        <!-- <div id="reminder-swiper" >
+
+        </div> -->
+        <div id="recommended-products" >
+  
+        </div>
+        <div id="product-swiper" >
+  
+        </div>
+        <div id="relevant-articles" >
+  
+        </div>
+        <div id="articles-videos" >
+          
+        </div>
+        
+        <div id="sidebar-content" >
+       
+        </div>
+      </div>
+
+      <!-- SKIN ANALYSIS -->
+      <div id="SkinAnalysis" class="tabcontent">
+    
+        <!-- <div id="reminder-swiper">
+
+        </div> -->
+        <div id="recommended-products">
+  
+        </div>
+        <div id="product-swiper">
+  
+        </div>
+        <div id="relevant-articles" >
+  
+        </div>
+        <div id="articles-videos" >
+          
+        </div>
+        
+        <div id="sidebar-content" >
+       
+        </div>
+      </div>
+      
+      <div id="Basket" class="tabcontent">
+        <div id="relevant-articles">
+          <p>Products in your basket <button style="
+            border: none; background: none; font-family: 'Roboto', sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 14px;
+              color: #324C5C;" onclick="openFullProductMenu('')">  <u>Go to e-commerce</u></button></p>
+        </div>
+        <div id="articles-videos">
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                
+                  <img src="/assets/novology-css-assets /Acne Cleanser_R1 1.png">
+               
+               <div class="product-carousel-details">
+                 <span class="product-carousel-name">Acne Cleanser</span>
+                 
+                 <span class="product-carousel-category">By Novology</span>
+               </div>
+               <form>
+                <div class="qty-container">
+                  <button class="qty-btn-minus btn-light" type="button"><i class="fa fa-minus"></i></button>
+                <input type="text" name="qty" value="0" class="input-qty"/>
+                  <button class="qty-btn-plus btn-light" type="button"><i class="fa fa-plus"></i></button>
+              </div>
+              </form>
+              </div>
+            </div>
+          
+            
+            
+            
+            
+            <div class="column">
+              <div class="card">
+                
+                  <img src="/assets/novology-css-assets /Acne Cleanser_R1 1.png">
+                  
+                <div class="product-carousel-details">
+                 <span class="product-carousel-name">Acne Cleanser</span>
+                 
+                 <span class="product-carousel-category">By Novology</span>
+               </div>
+               <form>
+                <!-- <button class="qty-btn-minus btn-light" type="button"><i class="fa fa-minus"></i></button>
+                <input type="text" name="qty" value="0" class="input-qty"/>
+                  <button class="qty-btn-plus btn-light" type="button"><i class="fa fa-plus"></i></button> -->
+
+                  <div class="qty-container">
+                    <button class="qty-btn-minus btn-light" type="button"><i class="fa fa-minus"></i></button>
+                  <input type="text" name="qty" value="0" class="input-qty"/>
+                    <button class="qty-btn-plus btn-light" type="button"><i class="fa fa-plus"></i></button>
+                </div>
+              </form>
+              </div>
+            </div>
+            <button class="buttonCheckOut">Go to Checkout</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+      </div>
+      
+      
+    <span class="novology-logo" style="font-size:30px;cursor:pointer;" onclick="checkMobile()">&#9776;</span>
+    
+    
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    
+    
+    
+    </main>
+    </body>
+</html>
+
+
+
+<script src="script.js"></script>
